@@ -151,7 +151,7 @@ for (let i = 0; i<4 ; i++){
 
   if(Number(qSix) === 5){
     alert('Thats awesome, ' + yourName + ' Your answer is correct 🤓');
-    scoreAll=scoreAll+0.25;
+    scoreAll=scoreAll+1;
     break;
   }
   else if(Number(qSix) > 3 && Number(qSix) < 7 && Number(qSix) !== 5){
