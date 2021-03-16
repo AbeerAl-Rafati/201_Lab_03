@@ -20,7 +20,7 @@
 
         .centered {
          position: absolute;
-         top: 15%;
+         top: 25%;
          right: 25%;
          transform: translate(-50%, -50%);
          text-align: center;
@@ -40,5 +40,7 @@
             text-align: center;
             color: #26001b;
             z-index: 1;
-            font-size: large;
+            font-size: small;
         }
+
+        
