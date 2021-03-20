@@ -20,10 +20,8 @@ webPage();
 
 
 
-//--------------------------------------------------------------------------------------------
 
 
-//1
 function answerYes(){
   alert('Thats awesome, ' + yourName + ' Your answer is correct 🤓');
   scoreAll++;
@@ -38,7 +36,7 @@ function answerOpps(){
 }
 
 
-//2
+
 function allInOne(q){
   let qFlag= -1;
   if (q.toUpperCase() === 'YES'){
@@ -64,7 +62,7 @@ function allInOne(q){
 }
 
 
-//3
+
 function webPage(){
   let qOne = prompt ('Did you hear about PharmD specialty ' + yourName + ' ?');
   allInOne(qOne);
@@ -89,7 +87,7 @@ function webPage(){
   mark();
 }
 
-//4
+
 
 function q6() {
 
@@ -117,7 +115,7 @@ function q6() {
 }
 
 
-//5
+
 function q7(){
   let belovedYears = ['1990', '2000', '2007', '2020', '2021'];
 
@@ -160,7 +158,7 @@ function q7(){
   }
 }
 
-//6
+
 function mark(){
   if (scoreAll >= 5){
     alert('GREAT '+ yourName + '! Your score is ' + scoreAll + '/7 🤗');
