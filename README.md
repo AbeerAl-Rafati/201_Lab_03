@@ -2,6 +2,8 @@
 
 This website will help you in creating your resume.
 
+[Demo](https://abeeral-rafati.github.io/201_Lab_03/)
+
 ## Author
 
 AWR Institution
